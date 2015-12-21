@@ -14,8 +14,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ImporterImpl.h"
-#include "swift/Strings.h"
 #include "swift/AST/ASTContext.h"
 #include "swift/AST/Attr.h"
 #include "swift/AST/Builtins.h"
