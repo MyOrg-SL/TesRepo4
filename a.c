@@ -78,10 +78,6 @@ static bool isInSystemModule(DeclContext *D) {
 }
 
 /// Create an implicit 'self' decl for a method in the specified type.  If
-/// 'static' is true, then this is self for a static method in the type.
-///
-/// Note that this decl is created, but it is returned with an incorrect
-/// DeclContext that needs to be reset once the method exists.
 ///
 static VarDecl *createSelfDecl(DeclContext *DC, bool isStaticMethod,
                                bool isInOut = false) {
